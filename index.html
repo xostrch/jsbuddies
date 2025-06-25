@@ -16,31 +16,30 @@
         </a>
         <div class="header-right">
             <a href="https://www.github.com/xostrch" target="_blank">
-                <div class="header-author">
-                    Autor
+                <div class="header-author" data-translate="headerAuthor">
                 </div>
             </a>
             <div class="header-language">
-                <select>
-                    <option>Polski</option>
-                    <option>English</option>
-                </select>
+                <select onchange="changeLanguage(this.value)">
+                    <option value="pl">Polski</option>
+                    <option value="en">English</option>
+                </select>   
             </div>
         </div>
     </header>
     <section class="main">
-        <h2>JavaScript w 10 etapach - bez spin, bez chaosu</h2>
-        <h5>Naucz sie z nami JavaScript - krok po kroku</h5>
+        <h2 data-translate="mainH2">/h2>
+        <h5 data-translate="mainH5"></h5>
         <div class="main-description">
             <div class="main-description-left">
                 <ul>
-                    <li>Od totalnych podstaw, po bardziej zaawansowane rzeczy</li>
-                    <li>Zero lania wody, same konkrety</li>
-                    <li>Wszystko za darmo ! ! !</li>
+                    <li data-translate="desc1">Od totalnych podstaw, po bardziej zaawansowane rzeczy</li>
+                    <li data-translate="desc2">Zero lania wody, same konkrety</li>
+                    <li data-translate="desc3">Wszystko za darmo ! ! !</li>
                 </ul>
             </div>
             <div class="main-description-right">
-                <button>Zacznijmy</button>
+                <a href="stages.html"><button data-translate="btnMainDescRight"></button></a>
             </div>
         </div>
         <div class="newsletter">
@@ -73,5 +72,7 @@
             Copyright &copy 2025 &nbsp;<a href="https://github.com/xostrch" target="_blank" class="footer-xostrch">xostrch</a>
         </div>
     </footer>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
