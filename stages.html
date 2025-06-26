@@ -8,6 +8,7 @@
     <link rel="icon" href="img/favicon.png">
 </head>
 <body>
+    <div class="blur-all"></div>
     <header>
         <a href="index.html">
             <div class="header-left">
@@ -16,18 +17,38 @@
         </a>
         <div class="header-right">
             <a href="https://www.github.com/xostrch" target="_blank">
-                <div class="header-author">
-                    Autor
+                <div class="header-author" data-translate="headerAuthor">
                 </div>
             </a>
             <div class="header-language">
-                <select>
-                    <option>Polski</option>
-                    <option>English</option>
-                </select>
+                <select onchange="changeLanguage(this.value)">
+                    <option value="pl">Polski</option>
+                    <option value="en">English</option>
+                </select>   
             </div>
         </div>
     </header>
-    </body>
-    </html>
+    <section class="stages-all">
+        <div class="stages">
+            <div class="stage-box" data-translate="stage1"></div>
+            <div class="stage-box" data-translate="stage2"></div>
+            <div class="stage-box" data-translate="stage3"></div>
+            <div class="stage-box" data-translate="stage4"></div>
+        </div>
+        <div class="stages">
+            <div class="stage-box" data-translate="stage5"></div>
+            <div class="stage-box" data-translate="stage6"></div>
+            <div class="stage-box" data-translate="stage7"></div>
+            <div class="stage-box" data-translate="stage8"></div>
+        </div>
+        <div class="stages">
+            <div class="stage-box" data-translate="stage9"></div>
+            <div class="stage-box" data-translate="stage10"></div>
+            <div class="stage-box">BONUS</div>
+        </div>
+    </section>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
     

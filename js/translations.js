@@ -7,6 +7,17 @@ const translations = {
         desc2:"Zero lania wody, same konkrety",
         desc3:"Wszystko za darmo ! ! !",
         btnMainDescRight:"Zacznijmy",
+        btnNewsletter:"Zapisz sie",
+        stage1:"Etap 1",
+        stage2:"Etap 2",
+        stage3:"Etap 3",
+        stage4:"Etap 4",
+        stage5:"Etap 5",
+        stage6:"Etap 6",
+        stage7:"Etap 7",
+        stage8:"Etap 8",
+        stage9:"Etap 9",
+        stage10:"Etap 10"
     },
     en:{
         headerAuthor: "Author",
@@ -15,6 +26,17 @@ const translations = {
         desc1: "From absolute basics to more advanced topics",
         desc2: "No fluff, just the essentials",
         desc3: "All completely FREE!!!",
-        btnMainDescRight:"Get Started"
+        btnMainDescRight:"Get Started",
+        btnNewsletter:"Join now",
+        stage1:"Stage 1",
+        stage2:"Stage 2",
+        stage3:"Stage 3",
+        stage4:"Stage 4",
+        stage5:"Stage 5",
+        stage6:"Stage 6",
+        stage7:"Stage 7",
+        stage8:"Stage 8",
+        stage9:"Stage 9",
+        stage10:"Stage 10"
     }
 }

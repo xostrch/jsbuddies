@@ -261,3 +261,45 @@ hr{
     color: white;
     font-weight: 600;
 }
+
+.stages{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.stage-box{
+    color: white;
+    background-color:#9dafeca9;
+    height: 8em;
+    width: 10em;
+    margin: 0 1em 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.stage-box:hover{
+    background-color:#9DB0EC;
+    transform: scale(1.1); 
+}
+
+.blur-all{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
