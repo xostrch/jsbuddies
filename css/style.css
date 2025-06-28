@@ -297,9 +297,89 @@ hr{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.4);
-    z-index: 999;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     display: none;
+}
+
+.stage-modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-box{
+    color: #9DB0EC;
+    z-index: 11;
+    background-color: white;
+    width: 35em;
+    max-height: 40em;
+    height: 40em;
+    overflow-y: scroll;
+    position: relative;
+    border-radius: 2em;
+    padding-left: 2em;
+    padding-right: 2ems;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.close-modal-position{
+    width: 35em;
+}
+
+.close-modal{
+    width: 2em;
+    right: 0;
+    position:absolute;
+    margin-right: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.modal-title{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 600;
+}
+
+.modal-content{
+    margin-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.list-style-main{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.list-style-main li{
+    margin: 0.5em;
+}
+
+.list-style-notmain{
+    margin-left: 2em;
+    font-weight: 300;
+    list-style: disc;
+    font-size: 0.9em;
+}
+
+.list-style-notnotmain{
+    margin-left: 2em;
+    font-weight: 300;
+    list-style: circle;
+    font-size: 0.9em;
 }

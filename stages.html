@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.png">
 </head>
-<body>
+<body id="body">
     <div class="blur-all"></div>
+    <div class="stage-modal">
+        <div class="modal-box">
+            <div class="close-modal-position"><img src="img/close-modal.png" class="close-modal" onclick="closeModal()"></div>
+                <span class="modal-title"></span>
+                <div class="modal-content">
+                </div>
+            </div>
+    </div>
+
     <header>
         <a href="index.html">
             <div class="header-left">
@@ -30,25 +39,26 @@
     </header>
     <section class="stages-all">
         <div class="stages">
-            <div class="stage-box" data-translate="stage1"></div>
-            <div class="stage-box" data-translate="stage2"></div>
-            <div class="stage-box" data-translate="stage3"></div>
-            <div class="stage-box" data-translate="stage4"></div>
+            <div class="stage-box" data-translate="stage1" data-stage="1" onclick="showModal('1')"></div>
+            <div class="stage-box" data-translate="stage2" data-stage="2" onclick="showModal('2')"></div>
+            <div class="stage-box" data-translate="stage3" data-stage="3" onclick="showModal('3')"></div>
+            <div class="stage-box" data-translate="stage4" data-stage="4" onclick="showModal('4')"></div>
         </div>
         <div class="stages">
-            <div class="stage-box" data-translate="stage5"></div>
-            <div class="stage-box" data-translate="stage6"></div>
-            <div class="stage-box" data-translate="stage7"></div>
-            <div class="stage-box" data-translate="stage8"></div>
+            <div class="stage-box" data-translate="stage5" data-stage="5" onclick="showModal('5')"></div>
+            <div class="stage-box" data-translate="stage6" data-stage="6" onclick="showModal('6')"></div>
+            <div class="stage-box" data-translate="stage7" data-stage="7" onclick="showModal('7')"></div>
+            <div class="stage-box" data-translate="stage8" data-stage="8" onclick="showModal('8')"></div>
         </div>
         <div class="stages">
-            <div class="stage-box" data-translate="stage9"></div>
-            <div class="stage-box" data-translate="stage10"></div>
+            <div class="stage-box" data-translate="stage9" data-stage="9" onclick="showModal('9')"></div>
+            <div class="stage-box" data-translate="stage10" data-stage="10" onclick="showModal('10')"></div>
             <div class="stage-box">BONUS</div>
         </div>
     </section>
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
     
