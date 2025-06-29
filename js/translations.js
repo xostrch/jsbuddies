@@ -91,7 +91,185 @@ const translations = {
                         <li>flat()</li>
                         <li>flatMap()</li>
                     </ul>
-            </ol>`
+            </ol>`,
+        modal3content:`
+            <ol class="list-style-main">
+                <li>Zakres(scope) i Hoisting: </li>
+                    <ul class="list-style-notmain">
+                        <li>Globalny</li>
+                        <li>Lokalny</li>
+                        <li>Block scope</li>
+                    </ul>
+                <li>Closure:</li>
+                    <ul class="list-style-notmain">
+                        <li>Definicja</li>
+                        <li>Przyklady</li>
+                        <li>Zastosowanie</li>
+                    </ul>
+                <li>this:</li>
+                    <ul class="list-style-notmain">
+                        <li>Kontekst wykonania</li>
+                        <li>Roznice miedzy funkcjami zwyklymi a arrow functions</li>
+                    </ul>
+                <li>Prototypy i dziedziczenie: </li>
+                    <ul class="list-style-notmain">
+                        <li>Prototypowy lancuch</li>
+                        <li>Tworzenie prototypow</li>
+                        <li>Klasy ES6</li>
+                    </ul>
+                <li>Funkcje wyzszego rzedu (higher-order functions) i callbacki: </li>
+                    <ul class="list-style-notmain">
+                        <li>Zasady dzialania</li>
+                        <li>Pulapki</li>
+                    </ul>
+                <li>Promisy</li>
+                    <ul class="list-style-notmain">
+                        <li>Tworzenie</li>
+                        <li>then</li>
+                        <li>catch</li>
+                        <li>finally</li>
+                    </ul>
+                <li>Async/await</li>
+                    <ul class="list-style-notmain">
+                        <li>asynchroniczny kod</li>
+                        <li>obsluga bledow w async</li>
+                    </ul>
+                <li>Event Loop</li>
+                    <ul class="list-style-notmain">
+                        <li>call stack</li>
+                        <li>event queue</li>
+                        <li>microtask queue</li>
+                    </ul>
+                <li>Obluga bledow: try/catch/finally</li>
+                    <ul class="list-style-notmain">
+                        <li>synchronizacja i asynchronicznosc</li>
+                    </ul>
+                <li>Strict Mode</li>
+                    <ul class="list-style-notmain">zalety i wplyw na kod</ul>
+            </ol>
+        `,
+        modal4content:`<ol class="list-style-main">
+            <li>Moduly ES6: </li>
+                <ul class="list-style-notmain">
+                    <li>import</li>
+                    <li>export</li>
+                </ul>
+            <li>Modularnosc i izolacja kodu</li>
+            <li>Dynamiczne importy</li>
+            <li>Nowosci ES6+: </li>
+                <ul class="list-style-notmain">
+                    <li>Destrukturyzacja tablic i obiektow</li>
+                    <li>Spread i rest operator</li>
+                    <li>Template literals</li>
+                    <li>Parametry domyslne</li>
+                    <li>Optional chaining</li>
+                    <li>Nullish coalescing</li>
+                </ul>
+        </ol>`,
+        modal5content:`<ol class="list-style-main">
+            <li>DOM API: </li>
+            <ul class="list-style-notmain">
+                <li>Co to jest DOM</li>
+                <li>Selektory DOM</li>
+            </ul>
+            <li>Manipulacja DOM:</li>
+            <ul class="list-style-notmain">
+                <li>tworzenie</li>
+                <li>dodawanie</li>
+                <li>usuwanie elementow</li>
+            </ul>
+            <li>Zmiana tresci</li>
+            <li>Zmiana atrybutow</li>
+            <li>Zmiana stylow</li>
+            <li>Praca z klasami CSS</li>
+            <li>Obsluga zdarzen: </li>
+            <ul class="list-style-notmain">
+                <li>addEventListener</li>
+                <li>Typy zdarzen</li>
+            </ul>
+            <li>Event Delegation:</li>
+            <ul class="list-style-notmain">
+                <li>Delegowanie zdarzen</li>
+                <li>Zalety</li>
+                <li>Przyklady</li>
+            </ul>
+            <li>Custom Events</li>
+            <ul class="list-style-notmain">
+                <li>Tworzenie i obsluga wlasnych eventow</li>
+            </ul>
+        </ol>`,
+        modal6content:`<ol class="list-style-main">
+            <li>Kolekcje:</li>
+            <ul class="list-style-notmain">
+                <li>Map</li>
+                <li>Set</li>
+                <li>WeakMap</li>
+                <li>Roznice i ich zastosowania</li>
+            </ul>
+            <li>Generatory i iteratory</li>
+                <ul class="list-style-notmain">
+                    <li>Dzialanie</li>
+                    <li>Zastosowanie</li>
+                    <li>Tworzenie wlasnych</li>
+                </ul>
+        </ol>`,
+        modal7content:`<ol class="list-style-main">
+            <li>Pure functions</li>
+            <ul class="list-style-notmain">
+                <li>Definicje</li>
+                <li>Korzysci</li>
+            </ul>
+            <li>Immutability</li>
+            <ul class="list-style-notmain">
+                <li>Praca z niezmiennymi danymi</li>
+                <li>Kopiowanie obiektow i tablic</li>
+            </ul>
+            <li>Kompozycja funkcji</li>
+            <ul class="list-style-notmain">
+                <li>Laczenie funkcji</li>
+                <li>pipes</li>
+                <li>compose</li>
+            </ul>
+        </ol>`,
+        modal8content:`<ol class="list-style-main">
+            <li>Narzedzia developerskie w przegladarce:</li>
+            <ul class="list-style-notmain">
+                <li>Debugger</li>
+                <li>Konsola</li>
+                <li>Breakpointy</li>
+            </ul>
+            <li>Pisanie testow jednostkowych w czystym JS</li>
+            <li>Wprowadzenie do TDD (Test-Driven Development)</li>
+        </ol>`,
+        modal9content:`<ol class="list-style-main">
+            <li>Fetch API: </li>
+            <ul class="list-style-notmain">
+                <li>pobieranie i wysylanie danych</li>
+                <li>Promise i async/await</li>
+            </ul>
+            <li>LocalStorage i SessionStorage: </li>
+            <ul class="list-style-notmain">
+                <li>Trwale przechowywanie danych</li>
+            </ul>
+            <li>History API: </li>
+            <ul class="list-style-notmain">
+                <li>Zarzadzanie historia przegladarki i nawigacja</li>
+            </ul>
+            <li>Web Workers:</li>
+            <ul class="list-style-notmain">
+                <li>Wielowatkowosc</li>
+                <li>Wykonywanie kodu w tle</li>
+            </ul>
+            <li>Intersection Observer:</li>
+            <ul class="list-style-notmain">
+                <li>Wykrywanie widocznosci elementow</li>
+            </ul>
+        </ol>`,
+        modal10content:`<ol class="list-style-main">
+            <li>Debouncing</li>
+            <li>Throttling</li>
+            <li>Najlepsze praktyki optymalizacji i wydajnosci</li>
+        </ol>`
 
     },
     en:{
@@ -185,6 +363,199 @@ const translations = {
                         <li>flat()</li>
                         <li>flatMap()</li>
                     </ul>
-            </ol>`
+            </ol>`,
+        modal3content: `
+            <ol class="list-style-main">
+                <li>Scope and Hoisting:</li>
+                    <ul class="list-style-notmain">
+                        <li>Global</li>
+                        <li>Local</li>
+                        <li>Block scope</li>
+                    </ul>
+                <li>Closures:</li>
+                    <ul class="list-style-notmain">
+                        <li>Definition</li>
+                        <li>Examples</li>
+                        <li>Use cases</li>
+                    </ul>
+                <li>this:</li>
+                    <ul class="list-style-notmain">
+                        <li>Execution context</li>
+                        <li>Differences between regular and arrow functions</li>
+                    </ul>
+                <li>Prototypes and Inheritance:</li>
+                    <ul class="list-style-notmain">
+                        <li>Prototype chain</li>
+                        <li>Creating prototypes</li>
+                        <li>ES6 Classes</li>
+                    </ul>
+                <li>Higher-Order Functions and Callbacks:</li>
+                    <ul class="list-style-notmain">
+                        <li>How they work</li>
+                        <li>Common pitfalls</li>
+                    </ul>
+                <li>Promises:</li>
+                    <ul class="list-style-notmain">
+                        <li>Creating promises</li>
+                        <li>then</li>
+                        <li>catch</li>
+                        <li>finally</li>
+                    </ul>
+                <li>Async/Await:</li>
+                    <ul class="list-style-notmain">
+                        <li>Asynchronous code</li>
+                        <li>Error handling in async</li>
+                    </ul>
+                <li>Event Loop:</li>
+                    <ul class="list-style-notmain">
+                        <li>Call stack</li>
+                        <li>Event queue</li>
+                        <li>Microtask queue</li>
+                    </ul>
+                <li>Error Handling: try/catch/finally</li>
+                    <ul class="list-style-notmain">
+                        <li>Sync vs async handling</li>
+                    </ul>
+                <li>Strict Mode</li>
+                    <ul class="list-style-notmain">
+                        <li>Benefits and impact on code</li>
+                    </ul>
+            </ol>
+        `,
+        modal4content: `
+            <ol class="list-style-main">
+                <li>ES6 Modules:</li>
+                    <ul class="list-style-notmain">
+                        <li>import</li>
+                        <li>export</li>
+                    </ul>
+                <li>Modularity and code isolation</li>
+                <li>Dynamic imports</li>
+                <li>ES6+ Features:</li>
+                    <ul class="list-style-notmain">
+                        <li>Array and object destructuring</li>
+                        <li>Spread and rest operators</li>
+                        <li>Template literals</li>
+                        <li>Default parameters</li>
+                        <li>Optional chaining</li>
+                        <li>Nullish coalescing</li>
+                    </ul>
+            </ol>
+        `,
+        modal5content: `
+            <ol class="list-style-main">
+                <li>DOM API:</li>
+                <ul class="list-style-notmain">
+                    <li>What is the DOM</li>
+                    <li>DOM selectors</li>
+                </ul>
+                <li>DOM Manipulation:</li>
+                <ul class="list-style-notmain">
+                    <li>Creating elements</li>
+                    <li>Appending elements</li>
+                    <li>Removing elements</li>
+                </ul>
+                <li>Changing content</li>
+                <li>Changing attributes</li>
+                <li>Changing styles</li>
+                <li>Working with CSS classes</li>
+                <li>Event Handling:</li>
+                <ul class="list-style-notmain">
+                    <li>addEventListener</li>
+                    <li>Event types</li>
+                </ul>
+                <li>Event Delegation:</li>
+                <ul class="list-style-notmain">
+                    <li>Delegating events</li>
+                    <li>Advantages</li>
+                    <li>Examples</li>
+                </ul>
+                <li>Custom Events</li>
+                <ul class="list-style-notmain">
+                    <li>Creating and handling custom events</li>
+                </ul>
+            </ol>
+        `,
+        modal6content: `
+            <ol class="list-style-main">
+                <li>Collections:</li>
+                <ul class="list-style-notmain">
+                    <li>Map</li>
+                    <li>Set</li>
+                    <li>WeakMap</li>
+                    <li>Differences and use cases</li>
+                </ul>
+                <li>Generators and Iterators:</li>
+                <ul class="list-style-notmain">
+                    <li>How they work</li>
+                    <li>Use cases</li>
+                    <li>Creating your own</li>
+                </ul>
+            </ol>
+        `,
+        modal7content: `
+            <ol class="list-style-main">
+                <li>Pure Functions</li>
+                <ul class="list-style-notmain">
+                    <li>Definition</li>
+                    <li>Benefits</li>
+                </ul>
+                <li>Immutability</li>
+                <ul class="list-style-notmain">
+                    <li>Working with immutable data</li>
+                    <li>Copying objects and arrays</li>
+                </ul>
+                <li>Function Composition</li>
+                <ul class="list-style-notmain">
+                    <li>Combining functions</li>
+                    <li>pipes</li>
+                    <li>compose</li>
+                </ul>
+            </ol>`,
+        modal8content: `
+            <ol class="list-style-main">
+                <li>Browser Developer Tools</li>
+                <ul class="list-style-notmain">
+                    <li>Debugger</li>
+                    <li>Console</li>
+                    <li>Breakpoints</li>
+                </ul>
+                <li>Writing Unit Tests in Vanilla JS</li>
+                <li>Introduction to TDD (Test-Driven Development)</li>
+            </ol>
+        `,
+        modal9content: `
+            <ol class="list-style-main">
+                <li>Fetch API:</li>
+                <ul class="list-style-notmain">
+                    <li>Fetching and sending data</li>
+                    <li>Promise and async/await</li>
+                </ul>
+                <li>LocalStorage and SessionStorage:</li>
+                <ul class="list-style-notmain">
+                    <li>Persistent data storage</li>
+                </ul>
+                <li>History API:</li>
+                <ul class="list-style-notmain">
+                    <li>Managing browser history and navigation</li>
+                </ul>
+                <li>Web Workers:</li>
+                <ul class="list-style-notmain">
+                    <li>Multithreading</li>
+                    <li>Running code in the background</li>
+                </ul>
+                <li>Intersection Observer:</li>
+                <ul class="list-style-notmain">
+                    <li>Detecting element visibility</li>
+                </ul>
+            </ol>
+        `,
+        modal10content: `
+            <ol class="list-style-main">
+                <li>Debouncing</li>
+                <li>Throttling</li>
+                <li>Best practices for optimization and performance</li>
+            </ol>
+        `
     }
 }
