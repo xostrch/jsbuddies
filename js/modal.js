@@ -2,6 +2,7 @@ const blurAll = document.querySelector(".blur-all");
 const stageModal = document.querySelector(".stage-modal");
 const modalTitle = document.querySelector(".modal-title");
 const modalContent = document.querySelector(".modal-content");
+const modalBtnDone = document.querySelector(".modal-btn-done");
 const body = document.getElementById("body");
 
 function showModal(stageKey){
@@ -9,8 +10,8 @@ function showModal(stageKey){
     const modalTranslateKeyContent = `modal${stageKey}content`;
     modalTitle.setAttribute("data-translate", modalTranslateKeyTitle);
     modalContent.setAttribute("data-translate", modalTranslateKeyContent);
+    stageModal.setAttribute("data-current-stage", stageKey);
 
-    
     blurAll.style.display = "flex";
     stageModal.style.display = "flex";
     body.style.overflow="hidden";

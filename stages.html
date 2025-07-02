@@ -15,6 +15,10 @@
                 <span class="modal-title"></span>
                 <div class="modal-content">
                 </div>
+                <div class="modal-btns-position">
+                    <button class="modal-btn-done" onclick="handleDoneClick()" data-translate="modalBtnDone">Done</button>
+                    <button class="modal-btn-unmark" onclick="handleUnmarkClick()" data-translate="modalBtnUnmark">Unmark</button>
+                </div>
             </div>
     </div>
 
@@ -53,7 +57,7 @@
         <div class="stages">
             <div class="stage-box" data-translate="stage9" data-stage="9" onclick="showModal('9')"></div>
             <div class="stage-box" data-translate="stage10" data-stage="10" onclick="showModal('10')"></div>
-            <div class="stage-box">BONUS</div>
+            <div class="stage-box" data-stage="11" onclick="showModal('11')">BONUS</div>
         </div>
     </section>
     <script src="js/translations.js"></script>

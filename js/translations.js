@@ -28,6 +28,7 @@ const translations = {
         modal8title: "Etap 8: Debugowanie i testowanie",
         modal9title: "Etap 9: Praca z Web Apis",
         modal10title: "Etap 10: Optymalizacja zdarzen i wydajnosc",
+        modal11titkle: "Bonus: JSON i praca z danymi",
         modal1content:`
                     <ol class="list-style-main">
                         <li>Co to jest JavaScript i do czego sluzy</li>
@@ -269,7 +270,14 @@ const translations = {
             <li>Debouncing</li>
             <li>Throttling</li>
             <li>Najlepsze praktyki optymalizacji i wydajnosci</li>
-        </ol>`
+        </ol>`,
+        modal11content:`<ol class="list-style-main">
+            <li>Serializacja i deserializacja</li>
+            <li>Walidacja danych JSON</li>
+            <li>Typowe bledy i jak ich unikac</li>
+        </ol>`,
+        modalBtnDone:"Zrobione",
+        modalBtnUnmark:"Odznacz"
 
     },
     en:{
@@ -301,6 +309,7 @@ const translations = {
         modal8title: "Stage 8: Debugging and Testing",
         modal9title: "Stage 9: Working with Web APIs",
         modal10title: "Stage 10: Event Optimization and Performance",
+        modal11title: "Bonus: JSON and working with data",
         modal1content: `<ol class="list-style-main">
                 <li>What is JavaScript and what is it used for</li>
                 <li>How to include JS in a webpage</li>
@@ -556,6 +565,14 @@ const translations = {
                 <li>Throttling</li>
                 <li>Best practices for optimization and performance</li>
             </ol>
-        `
+        `,
+        modal11content: `<ol class="list-style-main">
+                <li>Serialization and deserialization</li>
+                <li>JSON data validation</li>
+                <li>Common errors and how to avoid them</li>
+            </ol>`,
+
+        modalBtnDone:"Done",
+        modalBtnUnmark:"Unmark"
     }
 }
