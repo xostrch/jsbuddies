@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
@@ -361,6 +362,10 @@ hr{
     padding-right: 2em;
 }
 
+.modal-content li{
+    font-family: "Open Sans"
+}
+
 .list-style-main{
     font-weight: 600;
     font-size: 1.1em;
@@ -372,7 +377,7 @@ hr{
 
 .list-style-notmain{
     margin-left: 2em;
-    font-weight: 300;
+    font-weight: 400;
     list-style: disc;
     font-size: 0.9em;
 }

@@ -146,7 +146,9 @@ const translations = {
                         <li>synchronizacja i asynchronicznosc</li>
                     </ul>
                 <li>Strict Mode</li>
-                    <ul class="list-style-notmain">zalety i wplyw na kod</ul>
+                    <ul class="list-style-notmain">
+                        <li>zalety i wplyw na kod</li>
+                    </ul>
             </ol>
         `,
         modal4content:`<ol class="list-style-main">
